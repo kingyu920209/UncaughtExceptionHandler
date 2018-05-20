@@ -15,6 +15,7 @@
 		0CDFCE4B20B1880A00074C1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDFCE4A20B1880A00074C1E /* main.m */; };
 		0CDFCE5520B1880A00074C1E /* UncaughtExceptionHandlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDFCE5420B1880A00074C1E /* UncaughtExceptionHandlerTests.m */; };
 		0CDFCE6020B1880A00074C1E /* UncaughtExceptionHandlerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDFCE5F20B1880A00074C1E /* UncaughtExceptionHandlerUITests.m */; };
+		0CDFCE6F20B1881600074C1E /* UncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CDFCE6E20B1881600074C1E /* UncaughtExceptionHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		0CDFCE5B20B1880A00074C1E /* UncaughtExceptionHandlerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UncaughtExceptionHandlerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CDFCE5F20B1880A00074C1E /* UncaughtExceptionHandlerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UncaughtExceptionHandlerUITests.m; sourceTree = "<group>"; };
 		0CDFCE6120B1880A00074C1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CDFCE6D20B1881500074C1E /* UncaughtExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UncaughtExceptionHandler.h; sourceTree = "<group>"; };
+		0CDFCE6E20B1881600074C1E /* UncaughtExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UncaughtExceptionHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		0CDFCE3A20B1880900074C1E /* UncaughtExceptionHandler */ = {
 			isa = PBXGroup;
 			children = (
+				0CDFCE6D20B1881500074C1E /* UncaughtExceptionHandler.h */,
+				0CDFCE6E20B1881600074C1E /* UncaughtExceptionHandler.m */,
 				0CDFCE3B20B1880900074C1E /* AppDelegate.h */,
 				0CDFCE3C20B1880900074C1E /* AppDelegate.m */,
 				0CDFCE3E20B1880900074C1E /* ViewController.h */,
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CDFCE4020B1880900074C1E /* ViewController.m in Sources */,
+				0CDFCE6F20B1881600074C1E /* UncaughtExceptionHandler.m in Sources */,
 				0CDFCE4B20B1880A00074C1E /* main.m in Sources */,
 				0CDFCE3D20B1880900074C1E /* AppDelegate.m in Sources */,
 			);
